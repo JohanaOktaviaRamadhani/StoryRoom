@@ -1,14 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Story Room</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font awesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">STORY ROOM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> FITUR </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Consultation</a></li>
+                  <li><a class="dropdown-item" href="#">Report</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">HISTORY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ACCOUNT</a>
+              </li>
+            </ul>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary active  me-md-2" type="button">LOGIN</button>
+              <button class="btn btn-secondary " type="button">REGISTER</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- end navbar -->
 
-<body>
-    <script src="script.js"></script>
-</body>
+      <!-- tampilan awal -->
+      <div class="home">
+        <div class="container">
+          <h1 class="home-title">Story Room</h1>
+          <marquee><p>Dapatkan akses melaporkan tindak kekerasan, berkonsultasi dengan psikolog dan tempat berbagi cerita.</p></marquee>
+        </div>
+      </div>
+      <!-- end tampilan awal -->
+    </header>
+
+    <!-- perkembangan kasus -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div>
+            <img src="assets/diagram.jpg" alt="" />
+          </div>
+          <div class="about-text">
+            <div class="title-about">
+              <h2>PERKEMBANGAN KASUS</h2>
+              <p>Jumlah Kasus Kekerasan di Indonesia Yang Bertambah Tiap Tahun</p>
+            </div>
+            <p>
+              Berdasarkan catatan Komnas Perempuan dalam rentang 2016-2020, terdapat 24.786 kasus kekerasan seksual yang dilaporkan baik ke lembaga layanan (masyarakat maupun pemerintah) dan yang langsung. Di dalamnya terdapat 7.344 kasus
+              (29,6%) dicatatkan sebagai kasus perkosaan. Dari kasus perkosaan tersebut, hanya kurang dari 30% yang diproses secara hukum. Kini StoryRoom Berinovasi untuk membantu mengurangi mengurangi kekerasan dengan cara memberikan
+              edukasi dan akses untuk Melapor Tindak kekerasan Fisik, Mental dan Seksual.
+            </p>
+            <div class="d-grid gap-2">
+              <a href="#" class="btn btn-primary" type="button">Ayo Daftarkan Diri Anda di StoryRoom!!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of perkembangan kasus -->
+
+    <!-- fitur utama -->
+    <section class="fitur" id="fitur">
+      <div class="container">
+        <div class="title">
+          <h2>FITUR UTAMA</h2>
+          <p>Story Room</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card" style="width: 350px;">
+              <img src="assets/lapor1.png" class="card-img-top" alt="lapor" >
+              <div class="card-body">
+                <h5 class="card-title" style="text-align:center">REPORT</h5>
+                <p class="card-text" style="text-align:center" >Edukasi tentang kekerasan dan akses melapor tindak kekerasan fisik, mental maupun seksual.</p>
+                <a href="#" class="btn btn-primary">LET'S REPORT</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 350px;">
+              <img src="assets/konsul1.png" class="card-img-top" alt="konsul">
+              <div class="card-body">
+                <h2 class="card-title" style="text-align:center">CONSULTATION</h2>
+                <p class="card-text" style="text-align:center">Layanan konsultasi dengan psikolog-psikolog profesional dengan berbagai pilihan spesialis.</p>
+                <a href="#" class="btn btn-primary">LET'S CONSULT</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- end fitur utama -->
+
+    <!-- edukasi laporan kekerasan -->
+    <section class="edukasi" id="edukasi">
+      <div class="container">
+        <div class="title-edukasi">
+          <h2>EDUKASI LAPORAN KEKERASAN</h2>
+          <marquee><p>Sebelum melapor tindak kekerasan fisik, mental maupun seksual diharapkan membaca edukasinya terlebih dahulu.</p></marquee>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/edukasi1.png" class="card-img-top" alt="edukasi1">
+              <div class="card-body">
+                <h5 class="card-title">Edukasi S&K</h5>
+                <p class="card-text">Berisi edukasi tentang kekerasan dan akses melapor tindak kekerasan fisik, mental maupun seksual.</p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary">LET'S READ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/edukasi2.png" class="card-img-top" alt="edukasi2">
+              <div class="card-body">
+                <h5 class="card-title">Edukasi Dasar Hukum</h5>
+                <p class="card-text">Berisi edukasi tentang kekerasan dan akses melapor tindak kekerasan fisik, mental maupun seksual.</p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary">LET'S READ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/edukasi3.png" class="card-img-top" alt="edukasi3">
+              <div class="card-body">
+                <h5 class="card-title">Edukasi Cara Melapor</h5>
+                <p class="card-text">Berisi edukasi tentang kekerasan dan akses melapor tindak kekerasan fisik, mental maupun seksual.</p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-primary">LET'S READ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end edukasi laporan kekerasan -->
+
+    <!-- psikolog -->
+    <section class="psikolog" id="psikolog">
+      <div class="container">
+        <div class="title-psikolog">
+          <h2>DAFTAR PSIKOLOG</h2>
+          <marquee><p>Berbagai spesialis Psikolog yang telah berlisensi dan diakui oleh HIMPSI. Mereka siap mendengarkan ceritamu dan memberikan solusi terkait masalah yang kamu hadapi.</p></marquee>
+        </div>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col-md-6">
+              <div class="d-flex flex-row border rounded">
+                  <div class="p-0 w-25">
+                      <img src="https://c1.staticflickr.com/3/2862/12328317524_18e52b5972_k.jpg" class="img-thumbnail border-0" />
+                  </div>
+                  <div class="pl-3 pt-2 pr-2 pb-2 w-75 border-left">
+                      <h4 class="psikolog-name" style="font-family: playfair;">Jeon Arche, M.Psi.,Psikolog</h4>
+                      <h6 class="info">Psikolog Klinis Anak & Remaja.</h6>
+                      <ul class="m-0 float-left" style="list-style: none; margin:0; padding: 0">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                      </ul>
+                      <a href="#" class="btn btn-primary">LET'S READ</a>
+                    </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex flex-row border rounded">
+                  <div class="p-0 w-25">
+                    <img src="https://c1.staticflickr.com/3/2862/12328317524_18e52b5972_k.jpg" class="img-thumbnail border-0" />
+                  </div>
+                  <div class="pl-3 pt-2 pr-2 pb-2 w-75 border-left">
+                    <h4 class="psikolog-name" style="font-family: playfair;">Jeon Arche, M.Psi.,Psikolog</h4>
+                    <h6 class="info">Psikolog Klinis Anak & Remaja.</h6>
+                    <ul class="m-0 float-left" style="list-style: none; margin:0; padding: 0">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                    </ul>
+                    <a href="#" class="btn btn-primary">LET'S READ</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- end psikolog -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!-- footer -->
+    <footer>
+      <section>
+        <div class="social-links">
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/storyroom.id/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <span>StoryRoom@2022</span>
+      </section>
+    </footer>
+    <!-- end of footer -->
+
+  </body>
 </html>
+
