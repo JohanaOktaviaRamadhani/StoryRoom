@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --Playfair: "Playfair Display", serif;
+  --Quicksand: "Quicksand", sans-serif;
+  --Roboto: "Roboto", sans-serif;
+  --dark: #3c393d;
+  --exDark: #2b2b2b;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--Quicksand);
+}
+body {
+  line-height: 1.4;
+  color: var(--dark);
+}
+img {
+  width: 100%;
+  display: block;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+/* navbar */
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--Playfair);
+    letter-spacing: 1px;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(0, 0, 0, 0.575);
+  }
+
+
+  /* search */
+  body{
+   background-color:rgb(255, 255, 255);
+   font-family: "Poppins", sans-serif;
+   font-weight: 100;
+  }
+
+  .height{
+   height: 20vh;
+  }
+
+  .search{
+  position: relative;    
+  }
+
+  .search input{
+   height: 60px;
+   text-indent: 25px;
+   border: 2px solid #ffffff;
+   outline: auto;
+  }
+
+  .search input:focus{
+   box-shadow: none;
+   border: 2px solid blue;
+  }
+
+  .search .fa-search{
+   position: absolute;
+   top: 20px;
+   left: 16px;
+  }
+
+  .search button{
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   height: 50px;
+   width: 110px;
+   background: blue;
+  }
+  
+  /* Psikolog */
+  .psikolog {
+    background: rgb(255, 255, 255);
+    padding: 4.5rem 0;
+  }
+  
+  .title-psikolog {
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .title-psikolog h2 {
+    font-family: var(--Playfair);
+    font-size: 2.4rem;
+    color: black;
+  }
+
+  .title-psikolog p {
+    color: black;
+    text-transform: uppercase;
+    padding: 0.6rem 0;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+
+  /* footer */
+  footer {
+    background: rgb(28, 89, 255);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+  }
+  .social-links a {
+    border: 2px solid #fff;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: all 0.5s ease;
+  }
+  .social-links a:hover {
+    background: #fff;
+    color: var(--exDark);
+  }
+  .footer span {
+    margin-top: 1rem;
+    display: block;
+    font-family: var(--Playfair);
+    letter-spacing: 2px;
+  }
