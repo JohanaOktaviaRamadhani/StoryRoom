@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story Room</title>
+  <!-- Font awesome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="consul.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">STORY ROOM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/home.html">HOME</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> FITUR </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="consul.html">Consultation</a></li>
+                  <li><a class="dropdown-item" href="#">Report</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">HISTORY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ACCOUNT</a>
+              </li>
+            </ul>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <a href="#" class="btn btn-primary active  me-md-2" type="button">LOGIN</a>
+              <a href="#" class="btn btn-secondary " type="button">REGISTER</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End navbar -->
+    
+      <!-- Pemesanan -->
+      <section class="pemesanan" id="pemesanan">
+        <div class="container overflow-hidden">
+                <div class="ticket">
+                    <div class="pb-4 border-left">
+                        <h1 class="ticket" style="font-family: playfair;">Ticket Reservations</h1>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1 row-cols-md-2 g-5">
+                  <div class="col">
+                    <div class="mb-3">
+                        <label for="formGroup" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="name" placeholder="Input the text">
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="formGroup" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Input the text">
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="formGroup" class="form-label">No.Handphone</label>
+                        <input type="text" class="form-control" id="no" placeholder="Input the text">
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="formGroup" class="form-label">Ticket Price</label>
+                        <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                            <option selected>Choose..</option>
+                            <option value="1">1 Session(45 Minute) Rp.300.000</option>
+                            <option value="2">2 Session(90 Minute) Rp.400.000</option>
+                            <option value="3">3 Session(120 Minute) Rp.480.000</option>
+                          </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pl-3 pt-2 pr-2 pb-2 border-left">
+          <div class="row justify-content-md-center">
+                <div class="col col-lg-2">
+                    <div class="text-center">
+                        <a href="#" type="button" class="btn btn-primary">Ticket Reservations</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          
+    </section>
+        <!-- End Pemesanan -->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        
+      <!-- footer -->
+        <footer>
+          <section>
+            <div class="social-links">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://wa.me/message/ZYRDHVLO43SJA1"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://www.instagram.com/storyroom.id/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <span>StoryRoom@2022</span>
+          </section>
+        </footer>
+        <!-- end of footer -->
+</body>
+</html>
