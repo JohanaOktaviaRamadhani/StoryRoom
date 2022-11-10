@@ -147,3 +147,61 @@ img {
     font-family: var(--Playfair);
     letter-spacing: 2px;
   }
+
+  /* Psikolog 4 html */
+  .psikolog {
+    background: rgb(255, 255, 255);
+    padding: 4.5rem 0;
+    text-align: left;
+    margin: auto;
+  }
+  .psikolog h4 {
+    font-family: var(--Playfair);
+  }
+
+  .psikolog h5 {
+    font-family: var(--Playfair);
+    font-size: medium;
+    color: rgb(0, 0, 0);
+  }
+
+  .psikolog p {
+    text-align: justify;
+    color: black;
+    font-family: var(--Roboto);
+    font-size: medium;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  /*dropdowns*/
+  .btn-group {
+    font-family: var(--Roboto);
+    width: 17pc;
+  }
+
+  .input-group {
+    font-family: var(--Roboto);
+    width: 17pc;
+  }
+
+    /* metode pembayaran */
+    .pemesanan {
+      background: rgb(255, 255, 255);
+      padding: 4.5rem 0;
+    }
+  
+    .form-label {
+      font-family: var(--Roboto);
+      font-size: 1rem;
+      color: black;
+    }
+  
+    .form-control {
+      font-family: var(--Roboto);
+      color: black;
+      padding: 0.8rem;
+    }
+  
